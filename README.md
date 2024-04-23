@@ -1,1 +1,3 @@
 # Pitching-Biomechanics
+
+In order to achieve maximal velocity, every component of the body needs to work in a coordinated fashion as efficiently as possible. To evaluate a pitcher’s throwing mechanics, marker, or marker less motion capture is used in coordination with force plates to get a total picture of a pitcher throughout their throwing motion. The purpose of this study was to examine upper body joint angles as well as push-off leg and plant leg ground reaction forces and assess their relation to pitching velocity. 
