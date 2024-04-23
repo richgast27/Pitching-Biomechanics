@@ -18,7 +18,7 @@ library(car)
 
 
 metadata <-read.csv("metadata.csv")
-joint_angles <-read.csv("joint_angles 2.csv")
+joint_angles <-read.csv("joint_angles.csv")
 poi_metrics <-read.csv("poi_metrics.csv")
 
 
