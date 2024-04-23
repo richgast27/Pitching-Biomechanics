@@ -24,18 +24,18 @@ poi_metrics <-read.csv("poi_metrics.csv")
 
 
 
-
 # correlation of entire dataframe 
-cor_results <- as.data.frame(cor(upper_joint_angles))
+cor_results <- as.data.frame(cor(joint_angles))
 
 
 
-expanded_UJA <- joint_angles[, c(1:2,6:8,15:20,27:29,36:44,52)]
-
+## Capture point of interest metrics at ball release
 BR_POI <- poi_metrics[, c(1,3,5,42,45,70,75)]
 
-UJA_at_BR <- subset(expanded_UJA, time == BR_time)
+## Capture upper joint angles at ball release
+UJA_at_BR <- subset(joint_angles, time == BR_time)
 
+## Combine dataframes
 upper_metrics <- merge(BR_POI,UJA_at_BR, by="session_pitch")
 
 
