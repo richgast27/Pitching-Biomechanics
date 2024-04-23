@@ -23,13 +23,7 @@ poi_metrics <-read.csv("poi_metrics.csv")
 
 
 
-length(unique(metadata$user))
 
-trimmed_joint_angles <- subset(joint_angles, select = -c(session_pitch,time,pkh_time,fp_10_time,fp_100_time,MER_time,BR_time,MIR_time) )
-
-upper_joint_angles <- trimmed_joint_angles[,c(4:6,13:18,25:27,34:42)]
-
-upper_joint_angles <- subset(upper_joint_angles, select = -c(elbow_angle_y, glove_wrist_angle_z, glove_elbow_angle_y) )
 
 # correlation of entire dataframe 
 cor_results <- as.data.frame(cor(upper_joint_angles))
