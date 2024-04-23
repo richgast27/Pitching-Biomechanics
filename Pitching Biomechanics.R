@@ -17,9 +17,9 @@ library(car)
 
 
 
-metadata <-read.csv("/Users/rtgast27/Library/Mobile Documents/com~apple~CloudDocs/SPRT 6110/Final Project/metadata.csv")
-joint_angles <-read.csv("/Users/rtgast27/Library/Mobile Documents/com~apple~CloudDocs/SPRT 6110/Final Project/joint_angles 2.csv")
-poi_metrics <-read.csv("/Users/rtgast27/Library/Mobile Documents/com~apple~CloudDocs/SPRT 6110/Final Project/poi_metrics.csv")
+metadata <-read.csv("metadata.csv")
+joint_angles <-read.csv("joint_angles 2.csv")
+poi_metrics <-read.csv("poi_metrics.csv")
 
 
 
